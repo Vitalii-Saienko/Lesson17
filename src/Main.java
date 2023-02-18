@@ -8,6 +8,10 @@ public class Main {
         System.out.println("------");
         TransposeMatrix.transposeMatrix(arr2);
         TransposeMatrix.showMatrix(arr2);
+        System.out.println("------");
+        int[] array = FindMaxInRandomArray.createAndFillArray();
+        FindMaxInRandomArray.finMaxAndGetIndex(array);
+       // https://github.com/tel-ran-de/49-49-morning-basic-java/blob/main/src/main/java/homework/lesson17/Tasks.txt
     }
 
 
